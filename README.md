@@ -21,6 +21,7 @@ Welcome to the interactive demonstration guide for OpenAI and PromptMule Cache F
 Please ensure that you have the following:
 
 - A valid email address for account verification.
+- a Valid OpenAI API Key (if you are part of the private preview program, find it in your invite email from promptmule support)
 - Basic familiarity with the Google Colaboratory environment.
 
 ## Note
