@@ -1,8 +1,8 @@
-# OpenAI + PromptMule Cache Functional Demo v0.2
+# OpenAI + PromptMule Cache Functional Demo v0.3
 
 ## Overview
 
-Welcome to the interactive demonstration guide for OpenAI and PromptMule Cache Functional Demo v0.2. This guide will navigate you through the process of generating an API Key and Token, which will unlock the ability to utilize the PromptMule cloud cache. This demo is designed specifically for the Google Colaboratory runtime environment and offers a hands-on experience with sending prompts through OpenAI and testing cache functions.
+Welcome to the interactive demonstration guide for OpenAI and PromptMule Cache Functional Demo v0.3. This guide will navigate you through the process of generating an API Key and Token, which will unlock the ability to utilize the PromptMule cloud cache. This demo is designed specifically for the Google Colaboratory runtime environment and offers a hands-on experience with sending prompts through OpenAI and testing cache functions.
 
 ## Getting Started
 
