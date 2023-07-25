@@ -6,27 +6,24 @@ Welcome to the interactive demonstration guide for OpenAI and PromptMule Cache F
 
 ## Getting Started
 
-1. To start, click the "Open in Colab" icon situated at the top left corner of this page. This will launch the notebook in a new tab, where you can run, modify, and interact with the code within.
+1. To start, click the "Open in Colab" icon situated at the top left corner of the page: https://github.com/promptmule4real/demo/blob/main/promptmule_api_demo_v2.ipynb. This will launch the Google Colab notebook in a new tab of your web browser, where you can run, modify, and interact with this demo in a safe, non-intrusive enviornment. You can save the changes you make so you can come back later and pick up where you left off.
 
-2. Once the notebook is open in Google Colab, follow the subsequent step-by-step instructions to create your API Key and Token.
+2. Once the notebook is open in Google Colab, follow the subsequent step-by-step instructions to create your PromptMule API Key and Token.
 
 ## What you'll learn
 
-- How to generate an API Key and Token to access the PromptMule cloud cache.
+- How to generate an API Key and Token to access the PromptMule Semantic Cloud Cache.
 - How to interact with the Google Colaboratory environment.
-- How to send prompts through OpenAI and test cache functions.
+- How to send prompts through PromptMule to OpenAI and test Semantic Cloud Cache functions in scenarios we have tought up, and some you might make up.
 
 ## Requirements
 
 Please ensure that you have the following:
 
 - A valid email address for account verification.
-- a Valid OpenAI API Key (if you are part of the private preview program, find it in your invite email from promptmule support)
-- Basic familiarity with the Google Colaboratory environment.
+- a Valid OpenAI API Key (if you are part of the private preview program, find an OpenAI API Key in your invite email from PromptMule Developer's Support Team)
+- Basic familiarity with the Google Colaboratory environment and python.
 
-## Note
-
-An extensive demonstration of the PromptMule functionality is slated for our upcoming demo, set to launch at the conclusion of our next sprint.
 
 ## Feedback
 
