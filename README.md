@@ -6,7 +6,7 @@ Welcome to the interactive demonstration guide for OpenAI and PromptMule Cache F
 
 ## Getting Started
 
-1. To start, click the "Open in Colab" icon situated at the top left corner of the page: https://github.com/promptmule4real/demo/blob/main/promptmule_api_demo_v2.ipynb. This will launch the Google Colab notebook in a new tab of your web browser, where you can run, modify, and interact with this demo in a safe, non-intrusive enviornment. You can save the changes you make so you can come back later and pick up where you left off.
+1. To start, click the "Open in Colab" icon situated at the top left corner of the page: https://github.com/promptmule4real/demo/blob/main/promptmule_api_demo.ipynb. This will launch the Google Colab notebook in a new tab of your web browser, where you can run, modify, and interact with this demo in a safe, non-intrusive enviornment. You can save the changes you make so you can come back later and pick up where you left off.
 
 2. Once the notebook is open in Google Colab, follow the subsequent step-by-step instructions to create your PromptMule API Key and Token.
 
