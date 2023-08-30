@@ -1,84 +1,35 @@
-```markdown
-# OpenAI + PromptMule Cloud Cache API Key Generation Demo v0.5.4
+## PromptMule Quickstart Demo using OpenAI's LLM
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](your-colab-link)
-
-**tl;dr:** If you are familiar with Google Colab, Python, or OpenAI, you can jump straight to the code.
+**Brief**: Experienced users familiar with Google Colab, Python, or OpenAI can jump straight into our Google Colab notebook for hands-on interaction.
 
 ## Introduction
 
-Welcome to our interactive demo. In this guide, you will learn how to generate your own API Key and harness the capabilities of PromptMule, a cloud-based cache for generative AI applications. Designed exclusively for Google Colaboratory, this demo will help you dispatch prompts via OpenAI and test cache functionalities. For a more detailed look into PromptMule's capabilities, stay tuned for our upcoming comprehensive demo.
+Dive into the step-by-step process of generating an API Key, unlocking the power of PromptMule: a cloud cache tailored for generative AI applications. Designed with Google Colaboratory in mind, this demo simplifies the process of dispatching prompts via OpenAI and illuminating cache functionalities. For a comprehensive understanding of PromptMule's capabilities, our detailed Colab notebook is just around the corner.
 
-## Instructions
+## Steps Overview:
 
-### 0. Setting Up
+1. **Preliminary Setup**: Begin with setting up necessary Python libraries.
 
-Import basic Python libraries to send data using requests, read JSON, and format outputs.
+2. **User Registration**: Register with your desired username, password, and a valid email.
 
-```python
-# Python setup code here...
-```
+3. **Email Confirmation**: Remember to verify the provided email address after registration.
 
-### 1. Setting Up the Registration API Call
+4. **API Token Creation**: Upon email verification, log in to generate your API Token.
 
-Register as a new user with your username, password, and a valid email address.
+5. **Crafting the API Key**: Use the token to procure your unique API key.
 
-```python
-# Registration API call code here...
-```
+6. **Engaging with OpenAI Model**: Put to use your token and API key, interacting with OpenAI's gpt-3.5-turbo model.
 
-### 2. Email Verification
+7. **Deciphering Return Components**: Familiarize yourself with essential response components such as `search_score`, `saved_cost`, and `exact_match`.
 
-After registration, verify your email address to proceed. Failure to do so will trigger an error.
+8. **User Data Deletion (Optional)**: Learn how to optionally remove your user details from PromptMule.
 
-![Email Confirmation](register-conf-example.png)
+## Further Details:
 
-### 3. Token Generation
+For a hands-on experience, complete code samples, links, and a deep dive into the functionalities, refer directly to our Google Colab notebook. Additionally, should you encounter challenges or have feedback, the Colab notebook provides avenues for support and feedback mechanisms.
 
-Once your email is verified, login to generate your API Token.
+Thank you for exploring our demo. Dive into the Colab notebook and enjoy the journey!
 
-```python
-# Token generation code here...
-```
+--- 
 
-### 4. Obtaining the API Key
-
-Use your generated API token to create your API key.
-
-```python
-# API Key generation code here...
-```
-
-### 5. Prompt and Response Calls
-
-Utilize your new token and API key to interact with OpenAI's gpt-3.5-turbo model.
-
-```python
-# API response handling code here...
-```
-
-### 6. Considering Return Values
-
-Understand the key response elements, including `search_score`, `saved_cost`, and `exact_match`.
-
-```python
-# Return values examination code here...
-```
-
-### 7. Deleting Your User
-
-Optionally, learn how to delete your username from PromptMule.
-
-```python
-# User deletion code here...
-```
-
-## Additional Information
-
-For a deeper dive into PromptMule, explore the [official documentation](https://www.promptmule.com/docs). If you encounter issues or have suggestions, please [file a GitHub issue](https://github.com/your-repo-link/issues) or reach out to our support team.
-
-Thank you for trying out our demo!
-
-```
-
-Note: Replace placeholders such as `your-colab-link` and `your-repo-link` with actual links where necessary.
+Note: The actual link to the Google Colab notebook should be prominently displayed in a location where users are likely to look for detailed instructions, perhaps on a dedicated section of the repository or website.
