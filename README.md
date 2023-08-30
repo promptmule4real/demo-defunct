@@ -1,32 +1,84 @@
-# OpenAI + PromptMule Cache Functional Demo v0.3
+```markdown
+# OpenAI + PromptMule Cloud Cache API Key Generation Demo v0.5.4
 
-## Overview
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](your-colab-link)
 
-Welcome to the interactive demonstration guide for OpenAI and PromptMule Cache Functional Demo v0.3. This guide will navigate you through the process of generating an API Key and Token, which will unlock the ability to utilize the PromptMule cloud cache. This demo is designed specifically for the Google Colaboratory runtime environment and offers a hands-on experience with sending prompts through OpenAI and testing cache functions.
+**tl;dr:** If you are familiar with Google Colab, Python, or OpenAI, you can jump straight to the code.
 
-## Getting Started
+## Introduction
 
-1. To start, click the "Open in Colab" icon situated at the top left corner of the page: https://github.com/promptmule4real/demo/blob/main/promptmule_api_demo.ipynb. This will launch the Google Colab notebook in a new tab of your web browser, where you can run, modify, and interact with this demo in a safe, non-intrusive enviornment. You can save the changes you make so you can come back later and pick up where you left off.
+Welcome to our interactive demo. In this guide, you will learn how to generate your own API Key and harness the capabilities of PromptMule, a cloud-based cache for generative AI applications. Designed exclusively for Google Colaboratory, this demo will help you dispatch prompts via OpenAI and test cache functionalities. For a more detailed look into PromptMule's capabilities, stay tuned for our upcoming comprehensive demo.
 
-2. Once the notebook is open in Google Colab, follow the subsequent step-by-step instructions to create your PromptMule API Key and Token.
+## Instructions
 
-## What you'll learn
+### 0. Setting Up
 
-- How to generate an API Key and Token to access the PromptMule Semantic Cloud Cache.
-- How to interact with the Google Colaboratory environment.
-- How to send prompts through PromptMule to OpenAI and test Semantic Cloud Cache functions in scenarios we have tought up, and some you might make up.
+Import basic Python libraries to send data using requests, read JSON, and format outputs.
 
-## Requirements
+```python
+# Python setup code here...
+```
 
-Please ensure that you have the following:
+### 1. Setting Up the Registration API Call
 
-- A valid email address for account verification.
-- a Valid OpenAI API Key (if you are part of the private preview program, find an OpenAI API Key in your invite email from PromptMule Developer's Support Team)
-- Basic familiarity with the Google Colaboratory environment and python.
+Register as a new user with your username, password, and a valid email address.
 
+```python
+# Registration API call code here...
+```
 
-## Feedback
+### 2. Email Verification
 
-We invite you to delve into this interactive exploration and encourage your engagement and feedback. Visit us at www.promptmule.com for more information, updates and support.
+After registration, verify your email address to proceed. Failure to do so will trigger an error.
 
-Enjoy your journey through the OpenAI and PromptMule universe!
+![Email Confirmation](register-conf-example.png)
+
+### 3. Token Generation
+
+Once your email is verified, login to generate your API Token.
+
+```python
+# Token generation code here...
+```
+
+### 4. Obtaining the API Key
+
+Use your generated API token to create your API key.
+
+```python
+# API Key generation code here...
+```
+
+### 5. Prompt and Response Calls
+
+Utilize your new token and API key to interact with OpenAI's gpt-3.5-turbo model.
+
+```python
+# API response handling code here...
+```
+
+### 6. Considering Return Values
+
+Understand the key response elements, including `search_score`, `saved_cost`, and `exact_match`.
+
+```python
+# Return values examination code here...
+```
+
+### 7. Deleting Your User
+
+Optionally, learn how to delete your username from PromptMule.
+
+```python
+# User deletion code here...
+```
+
+## Additional Information
+
+For a deeper dive into PromptMule, explore the [official documentation](https://www.promptmule.com/docs). If you encounter issues or have suggestions, please [file a GitHub issue](https://github.com/your-repo-link/issues) or reach out to our support team.
+
+Thank you for trying out our demo!
+
+```
+
+Note: Replace placeholders such as `your-colab-link` and `your-repo-link` with actual links where necessary.
